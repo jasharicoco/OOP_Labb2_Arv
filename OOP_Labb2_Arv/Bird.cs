@@ -11,7 +11,7 @@
         public override void Present()
         {
             base.Present();
-            Console.WriteLine($"Lives in water? {LivesInWater}\n");
+            Console.WriteLine($"Does it live in water? {LivesInWater}\n");
         }
         public override void Eating()
         {

@@ -19,6 +19,14 @@
 
             fish1.Present();
             fish1.MakeSound("blub...");
+
+            var lionsub1 = new Lion_Sub1("Panthera Leo Leo", "Unknown", true, false, false, true, 120, "West Africa, Northern Central Africa and India");
+            
+            lionsub1.Present();
+
+            var lionsub2 = new Lion_Sub2("Panthera leo melanochaita", "Unknown", true, false, false, true, 140, true);
+
+            lionsub2.Present();
         }
     }
 }
