@@ -21,33 +21,33 @@ namespace OOP_Labb2_Arv
             WinsFightAgainstHuman = winsFight;
         }
 
-        public void Present()
+        public virtual void Present()
         {
             Console.WriteLine($"Name: {Name}\n" +
                 $"Scientific Name: {ScientificName}\n" +
                 $"Does it have legs? {HasLegs}\n" +
                 $"Can it fly? {CanFly}\n" +
                 $"Does it live in Sweden? {LivesInSweden}\n" +
-                $"Does it win a fight against a human? {WinsFightAgainstHuman}\n");
+                $"Does it win a fight against a human? {WinsFightAgainstHuman}");
         }
-        public void Accelerate()
+        public virtual void Accelerate()
         {
             Console.WriteLine($"{Name} is accelerating.");
         }
 
-        public void Resting()
+        public virtual void Resting()
         {
-            Console.WriteLine($"{Name} is accelerating.");
+            Console.WriteLine($"{Name} is resting.");
         }
 
-        public void Eating()
+        public virtual void Eating()
         {
-            Console.WriteLine($"{Name} is accelerating.");
+            Console.WriteLine($"{Name} is eating.");
         }
 
         public void MakeSound(string SpeechToText)
         {
-            Console.WriteLine($"The sound that {Name} sounds like this: {SpeechToText}.");
+            Console.WriteLine($"The sound that {Name} sounds like this: {SpeechToText}.\n");
         }
 
     }
