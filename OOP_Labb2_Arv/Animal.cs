@@ -47,7 +47,7 @@ namespace OOP_Labb2_Arv
 
         public void MakeSound(string SpeechToText)
         {
-            Console.WriteLine($"A {Name} sounds like this: {SpeechToText}.\n");
+            Console.WriteLine($"A {Name} sounds like this: {SpeechToText}.");
         }
 
     }

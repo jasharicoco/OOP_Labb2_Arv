@@ -11,12 +11,17 @@
         public override void Present()
         {
             base.Present();
-            Console.WriteLine($"Does it live in water? {LivesInWater}\n");
+            Console.WriteLine($"Does it live in water? {LivesInWater}");
         }
         public override void Eating()
         {
             base.Eating();
-            Console.WriteLine($"When a {Name} eats, it eats worms, seeds and other small things.\n");
+            Console.WriteLine($"When a {Name} eats, it eats worms, seeds and other small things.");
+        }
+
+        public int Flying(int value)
+        {
+            return value;
         }
     }
 }

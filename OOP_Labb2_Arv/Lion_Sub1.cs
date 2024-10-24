@@ -11,7 +11,7 @@
         public override void Present()
         {
             base.Present();
-            Console.WriteLine($"The Lion sub-species '{Name}' lives in {Area}.\n");
+            Console.WriteLine($"The Lion sub-species '{Name}' lives in {Area}.");
         }
     }
 }

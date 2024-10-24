@@ -11,13 +11,18 @@
         public override void Present()
         {
             base.Present();
-            Console.WriteLine($"Top speed: {Speed} km/h.\n");
+            Console.WriteLine($"Top speed: {Speed} km/h.");
         }
 
         public override void Eating()
         {
             base.Eating();
-            Console.WriteLine($"When a {Name} eats, it eats other big animals that it has hunted. Such as gazelles.\n");
+            Console.WriteLine($"When a {Name} eats, it eats other big animals that it has hunted. Such as gazelles.");
+        }
+
+        public int Sprint(int value)
+        {
+            return value;
         }
     }
 }
